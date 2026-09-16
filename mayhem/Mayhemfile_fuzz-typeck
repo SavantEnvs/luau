@@ -1,0 +1,7 @@
+project: savantenvs/luau
+target: fuzz-typeck
+
+cmds:
+  - cmd: /mayhem/fuzz-typeck
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/syntax.dict

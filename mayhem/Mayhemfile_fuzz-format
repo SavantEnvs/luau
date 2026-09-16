@@ -1,0 +1,7 @@
+project: savantenvs/luau
+target: fuzz-format
+
+cmds:
+  - cmd: /mayhem/fuzz-format
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/syntax.dict

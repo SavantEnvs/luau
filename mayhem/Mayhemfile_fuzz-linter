@@ -1,0 +1,7 @@
+project: savantenvs/luau
+target: fuzz-linter
+
+cmds:
+  - cmd: /mayhem/fuzz-linter
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/syntax.dict

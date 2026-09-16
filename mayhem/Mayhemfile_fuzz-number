@@ -1,0 +1,6 @@
+project: savantenvs/luau
+target: fuzz-number
+
+cmds:
+  - cmd: /mayhem/fuzz-number
+    libfuzzer: true

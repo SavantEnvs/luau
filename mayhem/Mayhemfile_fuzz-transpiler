@@ -1,0 +1,7 @@
+project: savantenvs/luau
+target: fuzz-transpiler
+
+cmds:
+  - cmd: /mayhem/fuzz-transpiler
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/syntax.dict
