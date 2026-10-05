@@ -1,0 +1,8 @@
+project: savantenvs/luau
+target: luau-analyze-buggy-mhh-run-132
+
+# origin: https://app.mayhem.security/mayhemheroes/luau/luau-analyze/132
+
+cmds:
+  - cmd: /mayhem/luau-analyze @@
+    filepath: /input.lua
